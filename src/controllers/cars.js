@@ -1,3 +1,4 @@
+require('dotenv').config();
 const knex = require('../database/connection');
 const { uploadImage, deleteImage } = require('../services/uploads');
 
